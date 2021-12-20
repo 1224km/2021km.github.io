@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+html{
+    font-size: 100%;
+    background-color: #9FD0FF;
+}
+body{
+    font-family: tbudrgothic-std,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    width: 80%;
+    object-fit: contain;
+}
+
+/* HEADER */
+
+.page-header{
+    height: 15rem;
+}
+.title{
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: 7pt;
+    color: #fff;
+    text-align: center;
+    padding-top: 70px;
+}
+
+/* 本文 */
+
+.subtitle{
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+}
+
+ul{
+    margin-top: 12rem;
+}
+
+li{
+    width: fit-content;
+    border: #fff 3px solid;
+    margin-bottom: 5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.design-title{
+    margin: 5% 5%;
+    padding-bottom: 1rem;
+    font-size: 21pt;
+    color: #fff;
+    border: solid 5px;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #fff rgba(0, 0, 0, 0);
+}
+.work{
+    position: relative;
+}
+.caption{
+    color: royalblue;
+    font-size: 1.6rem;
+    border: royalblue solid 2px;
+    width: 80%;
+    height: 87.2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.9);
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work:hover .caption{
+    opacity: 1;
+}
+.samne{
+    padding-bottom: 5rem;
+}
+
+/* 作品詳細 */
+
+article{
+    width: 90%;
+    text-align: center;
+}
+.content-img{
+    text-align: center;
+}
+.work-title{
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-bottom: 50px;
+}
+
+aside{
+    width: 10%;
+}
+/* フッター */
+
+footer{
+    background-color: #9FD0FF;
+    text-align: center;
+    padding: 26px 0;
+}
+footer p{
+    color: #fff;
+    font-size: 1rem;
+}
